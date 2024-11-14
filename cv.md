@@ -15,6 +15,6 @@ Discord: __quant
 - English A2
 
 ## Education
-Bachelor’s Degree in Computer Science
-Second-year student
-2023 – Present
+    Bachelor’s Degree in Computer Science
+    Second-year student
+    2023 – Present
