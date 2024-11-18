@@ -1,0 +1,94 @@
+
+body{
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 150%; /* 48px */
+    letter-spacing: .18em;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 152%; /* 36.48px */
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 152%; /* 24.32px */
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 148%; /* 23.68px */
+}
+
+.action-large{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 152%; /* 36.48px */
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.action-small{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.caption{
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%; /* 24px */
+    letter-spacing: .05em;
+}
+
+.slider__text{
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+body{
+    margin: 0px;
+}
+
+main {
+    width: 1440px;
+}
+
+pre, h1{
+    margin: 0px;
+}
