@@ -1,0 +1,233 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v29-latin/montserrat-v29-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v29-latin/montserrat-v29-latin-600.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* allura-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Allura";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/allura-v21-latin/allura-v21-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 152%; /* 36.48px */
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 152%; /* 24.32px */
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%; /* 15.6px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 148%; /* 23.68px */
+}
+
+.action-large {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 152%; /* 36.48px */
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.action-small {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%; /* 15.6px */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-family: Allura;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+  letter-spacing: 0.05em;
+}
+
+.slider__text {
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  width: 1440px;
+}
+
+pre, h1 {
+  margin: 0px;
+}
+
+.wrapper {
+  max-width: 1276px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 1440px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+  height: 40px;
+}
+
+.header__link {
+  color: #181C29;
+  text-decoration: none;
+}
+
+.header__list {
+  display: flex;
+  padding-left: 747px;
+}
+
+.header__item {
+  list-style: none;
+  padding-left: 5px;
+  margin: 12px 20px;
+}
+
+.header__logo {
+  padding: 8px 20px;
+}
+
+.header__link {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.header__logo > .header__link {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-text {
+  padding-left: 8px;
+}
+
+.hero {
+  display: flex;
+  padding: 60px 8px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 20px 20px 0px 0px;
+  gap: 0px;
+  background: url("..img/bg-ball.png"), url("..img/bg-snow.png");
+  background-repeat: no-repeat;
+  background-color: #FF4646;
+}
+
+.hero__wrapper {
+  max-width: 430px;
+}
+
+.hero__content {
+  display: flex;
+  padding: 60px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.hero__button {
+  display: flex;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  border-radius: 20px;
+  background: #181C29;
+}
+
+.hero__content > h1 {
+  color: #fff;
+  margin: 0px;
+}
+
+.hero__content > .caption {
+  color: #fff;
+}
+
+.hero__content > button > .action-small {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
