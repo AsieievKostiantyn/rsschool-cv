@@ -1,1 +1,1 @@
-https://asieievkostiantyn.github.io/rsschool-cv/cv
+https://asieievkostiantyn.github.io/rsschool-cv/
