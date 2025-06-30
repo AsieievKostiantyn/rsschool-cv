@@ -14,7 +14,7 @@
 
 ## Summary
 
-Passionate about both technology and personal development, I maintain a healthy lifestyle through regular strength training and have even achieved competitive success in powerlifting at the regional and national level. I’m also a self-taught front-end developer with a strong interest in creating socially meaningful tools. My background in music - I play both piano and guitar. I’m curious by nature, committed to growth, and motivated by real-world impact.
+Passionate about both technology and personal development, I maintain a healthy lifestyle through regular strength training and have even achieved competitive success in powerlifting at the regional and national level. I’m also a self-taught front-end developer with a strong interest in creating socially meaningful tools. My background in music - I play both guitar. I’m curious by nature, committed to growth, and motivated by real-world impact.
 
 ---
 
@@ -47,3 +47,4 @@ Major: Computer Science (withdrew from the program by personal decision)
 
 - Ukrainian: Native
 - English: Intermediate
+- Russian: Fluent
