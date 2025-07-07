@@ -4,7 +4,6 @@
   font-weight: 700;
   src: url('../fonts/Poppins-Bold.ttf');
 }
-
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
@@ -29,8 +28,8 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 300px auto;
-  grid-template-rows: 280px auto 200px;
+  grid-template-columns: 37% 63%;
+  grid-template-rows: 350px auto 200px;
 
   @media (max-width: 720px) {
     display: flex;
@@ -65,18 +64,22 @@ footer {
   background-color: var(--header-color);
 }
 
+section {
+  margin-bottom: 20px;
+}
+
 .text-container {
-  padding: 10px 30px;
+  padding: 10px 40px 10px 50px;
+}
+.section-title {
+  color: white;
+  width: 180px;
+  padding: 3px 0 3px 30px;
+  background-color: var(--headers-color);
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 62px;
   font-weight: 700;
-  color: var(--second-text-color);
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 400;
   color: var(--second-text-color);
 }

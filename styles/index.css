@@ -7,12 +7,33 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
 }
 .avatar-container img {
-  height: 225px;
-  width: 225px;
+  height: 260px;
+  width: 260px;
   border: 2px solid var(--header-color);
   border-radius: 100%;
   background-color: greenyellow;
+}
+header h2 {
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--second-text-color);
+}
+
+.contacts-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.5s;
+}
+.contacts-link:hover {
+  color: red;
+  transform: scale(1.2);
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
