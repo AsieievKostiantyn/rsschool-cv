@@ -1,0 +1,60 @@
+@import './normilize.css';
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Poppins-Regular.ttf');
+}
+
+:root {
+  --primary-background: #fefefe;
+  --aside-color: #ced6de;
+  --header-color: #e8eef4;
+  --second-text-color: #6e7479;
+  --section-headers-background: #231e22;
+}
+
+body {
+  font-family: 'Poppins';
+  background-color: #ffe1c6;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 300px auto 200px;
+
+  @media (max-width: 720px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+header {
+  display: subgrid;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: var(--header-color);
+}
+
+aside {
+  display: subgrid;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  background-color: var(--aside-color);
+}
+main {
+  display: subgrid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: var(--primary-background);
+}
+footer {
+  display: subgrid;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: var(--header-color);
+}
