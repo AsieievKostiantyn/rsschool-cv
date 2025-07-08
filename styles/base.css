@@ -64,6 +64,8 @@ footer {
   display: subgrid;
   grid-column: 2/3;
   grid-row: 3/4;
+
+  padding: 30px;
   background-color: var(--header-color);
 }
 
