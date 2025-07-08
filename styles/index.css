@@ -1,6 +1,11 @@
 @import './normilize.css';
 @import './base.css';
 
+.aside-content {
+  grid-row: 2/4;
+  padding-bottom: 30px;
+}
+
 .avatar-container {
   display: flex;
   justify-content: center;
@@ -22,6 +27,11 @@ header h2 {
   color: var(--second-text-color);
 }
 
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 .contacts-link {
   display: inline-flex;
   align-items: center;
@@ -32,8 +42,24 @@ header h2 {
   color: red;
   transform: scale(1.2);
 }
-.contacts-list {
+
+.skills-list {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 10px;
+}
+.skills-list-item {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.skills-list-item img {
+  width: 48px;
+  height: 48px;
+}
+
+.education-note {
+  font-size: 12px;
+  color: var(--second-text-color);
 }

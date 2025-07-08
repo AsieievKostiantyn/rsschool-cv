@@ -18,146 +18,225 @@
         <div class="avatar-container">
           <img src="./assets/images/avatar1-1.jpg" alt="avatar" />
         </div>
-        <section>
-          <div class="section-title"><h2>Profile</h2></div>
-          <div class="text-container">
-            Passionate about both technology and personal development, I
-            maintain a healthy lifestyle through regular strength training. I’m
-            also a self-taught developer with a strong interest in creating
-            accessible and socially meaningful tools. My background in music - I
-            play guitar. I’m curious by nature, committed to growth, and
-            motivated by real-world impact.
-          </div>
-        </section>
-        <section>
-          <div class="section-title"><h2>Contacts</h2></div>
-          <div class="text-container">
-            <ul class="contacts-list">
-              <li>
-                <a
-                  href="mailto:aks20050504@gmail.com"
-                  target="_blank"
-                  class="contacts-link"
-                >
-                  <svg
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -2.5 20 20"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    fill="currentColor"
+        <div class="aside-content">
+          <section>
+            <div class="section-title"><h2>Profile</h2></div>
+            <div class="text-container">
+              Passionate about both technology and personal development, I
+              maintain a healthy lifestyle through regular strength training.
+              I’m also a self-taught developer with a strong interest in
+              creating accessible and socially meaningful tools. My background
+              in music - I play guitar. I’m curious by nature, committed to
+              growth, and motivated by real-world impact.
+            </div>
+          </section>
+          <section>
+            <div class="section-title"><h2>Skills</h2></div>
+            <div class="text-container">
+              <ul class="skills-list">
+                <li class="skills-list-item">
+                  <img
+                    src="/assets/images/html-css-js-logo.PNG"
+                    alt="html-css-js-logo"
+                  />HTML, CSS, JavaScript
+                </li>
+                <li class="skills-list-item">
+                  <img
+                    src="/assets/images/TypeScript-logo.png"
+                    alt="typescript-logo"
+                  />TypeScript
+                </li>
+                <li class="skills-list-item">
+                  <img
+                    src="https://www.freelogovectors.net/wp-content/uploads/2023/05/react_logo-freelogovectors.net_.png"
+                    alt="react-logo"
+                  />React & Ecosystem
+                </li>
+                <li class="skills-list-item">
+                  <img
+                    src="/assets/images/tailwind-logo.png"
+                    alt="tailwind-logo"
+                  />SCSS, CSS modules, Tailwind CSS
+                </li>
+                <li class="skills-list-item">
+                  <img src="/assets/images/vite-logo.png" alt="vite-logo" />Vite
+                </li>
+                <li class="skills-list-item">
+                  <img
+                    src="/assets/images/eslint-and-prettier-logo.Default"
+                    alt="eslint-and-prettier-logo"
+                  />ESLint, Prettier
+                </li>
+                <li class="skills-list-item">
+                  <img
+                    src="data:image/png;base64,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"
+                    alt="git-github-logo"
+                  />Git, GitHub
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <div class="section-title"><h2>Contacts</h2></div>
+            <div class="text-container">
+              <ul class="contacts-list">
+                <li>
+                  <a
+                    href="mailto:aks20050504@gmail.com"
+                    target="_blank"
+                    class="contacts-link"
                   >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
+                    <svg
+                      width="24px"
+                      height="24px"
+                      viewBox="0 -2.5 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="currentColor"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                       <g
-                        id="Page-1"
-                        stroke="none"
-                        stroke-width="1"
-                        fill="none"
-                        fill-rule="evenodd"
-                      >
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
                         <g
-                          id="Dribbble-Light-Preview"
-                          transform="translate(-340.000000, -922.000000)"
-                          fill="currentColor"
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
                         >
                           <g
-                            id="icons"
-                            transform="translate(56.000000, 160.000000)"
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-340.000000, -922.000000)"
+                            fill="currentColor"
                           >
-                            <path
-                              d="M294,774.474 L284,765.649 L284,777 L304,777 L304,765.649 L294,774.474 Z M294.001,771.812 L284,762.981 L284,762 L304,762 L304,762.981 L294.001,771.812 Z"
-                              id="email-[#1572]"
-                            ></path>
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M294,774.474 L284,765.649 L284,777 L304,777 L304,765.649 L294,774.474 Z M294.001,771.812 L284,762.981 L284,762 L304,762 L304,762.981 L294.001,771.812 Z"
+                                id="email-[#1572]"
+                              ></path>
+                            </g>
                           </g>
                         </g>
                       </g>
-                    </g>
-                  </svg>
-                  <span>Email</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://t.me/Asieiev_Kostiantyn"
-                  target="_blank"
-                  class="contacts-link"
-                >
-                  <svg
-                    fill="currentColor"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 0 32 32"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
+                    </svg>
+                    <span>Email</span></a
                   >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                </li>
+                <li>
+                  <a
+                    href="https://t.me/Asieiev_Kostiantyn"
+                    target="_blank"
+                    class="contacts-link"
+                  >
+                    <svg
+                      fill="currentColor"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 0 32 32"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-
-                    <g id="SVGRepo_iconCarrier">
-                      <path
-                        d="M22.122 10.040c0.006-0 0.014-0 0.022-0 0.209 0 0.403 0.065 0.562 0.177l-0.003-0.002c0.116 0.101 0.194 0.243 0.213 0.403l0 0.003c0.020 0.122 0.031 0.262 0.031 0.405 0 0.065-0.002 0.129-0.007 0.193l0-0.009c-0.225 2.369-1.201 8.114-1.697 10.766-0.21 1.123-0.623 1.499-1.023 1.535-0.869 0.081-1.529-0.574-2.371-1.126-1.318-0.865-2.063-1.403-3.342-2.246-1.479-0.973-0.52-1.51 0.322-2.384 0.221-0.23 4.052-3.715 4.127-4.031 0.004-0.019 0.006-0.040 0.006-0.062 0-0.078-0.029-0.149-0.076-0.203l0 0c-0.052-0.034-0.117-0.053-0.185-0.053-0.045 0-0.088 0.009-0.128 0.024l0.002-0.001q-0.198 0.045-6.316 4.174c-0.445 0.351-1.007 0.573-1.619 0.599l-0.006 0c-0.867-0.105-1.654-0.298-2.401-0.573l0.074 0.024c-0.938-0.306-1.683-0.467-1.619-0.985q0.051-0.404 1.114-0.827 6.548-2.853 8.733-3.761c1.607-0.853 3.47-1.555 5.429-2.010l0.157-0.031zM15.93 1.025c-8.302 0.020-15.025 6.755-15.025 15.060 0 8.317 6.742 15.060 15.060 15.060s15.060-6.742 15.060-15.060c0-8.305-6.723-15.040-15.023-15.060h-0.002q-0.035-0-0.070 0z"
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </g>
-                  </svg>
-                  <span>Telegram</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://discord.com/users/400309707216257024"
-                  target="_blank"
-                  class="contacts-link"
-                >
-                  <svg
-                    class="contacts-icon"
-                    width="24px"
-                    height="24px"
-                    viewBox="0 -28.5 256 256"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    preserveAspectRatio="xMidYMid"
-                    fill="#000000"
-                    transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-
-                    <g id="SVGRepo_iconCarrier">
-                      <g>
+                      <g id="SVGRepo_iconCarrier">
                         <path
-                          d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"
-                          fill="currentColor"
-                          fill-rule="nonzero"
-                        ></path>
+                          d="M22.122 10.040c0.006-0 0.014-0 0.022-0 0.209 0 0.403 0.065 0.562 0.177l-0.003-0.002c0.116 0.101 0.194 0.243 0.213 0.403l0 0.003c0.020 0.122 0.031 0.262 0.031 0.405 0 0.065-0.002 0.129-0.007 0.193l0-0.009c-0.225 2.369-1.201 8.114-1.697 10.766-0.21 1.123-0.623 1.499-1.023 1.535-0.869 0.081-1.529-0.574-2.371-1.126-1.318-0.865-2.063-1.403-3.342-2.246-1.479-0.973-0.52-1.51 0.322-2.384 0.221-0.23 4.052-3.715 4.127-4.031 0.004-0.019 0.006-0.040 0.006-0.062 0-0.078-0.029-0.149-0.076-0.203l0 0c-0.052-0.034-0.117-0.053-0.185-0.053-0.045 0-0.088 0.009-0.128 0.024l0.002-0.001q-0.198 0.045-6.316 4.174c-0.445 0.351-1.007 0.573-1.619 0.599l-0.006 0c-0.867-0.105-1.654-0.298-2.401-0.573l0.074 0.024c-0.938-0.306-1.683-0.467-1.619-0.985q0.051-0.404 1.114-0.827 6.548-2.853 8.733-3.761c1.607-0.853 3.47-1.555 5.429-2.010l0.157-0.031zM15.93 1.025c-8.302 0.020-15.025 6.755-15.025 15.060 0 8.317 6.742 15.060 15.060 15.060s15.060-6.742 15.060-15.060c0-8.305-6.723-15.040-15.023-15.060h-0.002q-0.035-0-0.070 0z"
+                        />
                       </g>
-                    </g>
-                  </svg>
-                  <span>Discord</span></a
-                >
-              </li>
-            </ul>
+                    </svg>
+                    <span>Telegram</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://discord.com/users/400309707216257024"
+                    target="_blank"
+                    class="contacts-link"
+                  >
+                    <svg
+                      class="contacts-icon"
+                      width="24px"
+                      height="24px"
+                      viewBox="0 -28.5 256 256"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      preserveAspectRatio="xMidYMid"
+                      fill="#000000"
+                      transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+
+                      <g id="SVGRepo_iconCarrier">
+                        <g>
+                          <path
+                            d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"
+                            fill="currentColor"
+                            fill-rule="nonzero"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                    <span>Discord</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </aside>
+      <main>
+        <section>
+          <div class="section-title"><h2>Education</h2></div>
+          <div class="text-container">
+            <span class="history-timeline">[Sep 2023 - Present]</span>
+            <span>Bachelor's Degree</span>
+            <h3>Rivne State University of the Humanities</h3>
+            <p>Major: Physical Education and Sports</p>
+          </div>
+          <div class="text-container">
+            <span class="history-timeline">[Sep 2023 - Feb 2025]</span>
+            <span>Bachelor's Degree</span>
+            <h3>
+              The National University of Water and Environmental Engineering
+            </h3>
+            <p>
+              Major: Computer Science
+              <span class="education-note">
+                (withdrew from the program by personal decision)
+              </span>
+            </p>
           </div>
         </section>
-      </aside>
-      <main>main</main>
+        <section>
+          <div class="section-title"><h2>Experience</h2></div>
+          <div class="text-container">
+            <span class="history-timeline"> [Jun 2025 - Present] </span>
+            <h3>Pravo Vibora - "Life capital" for blind youth</h3>
+            <p>Volunteer project for a non-profit organization</p>
+          </div>
+        </section>
+      </main>
       <footer>footer</footer>
     </div>
   </body>
