@@ -57,6 +57,16 @@ header h2 {
   height: 48px;
 }
 
+.languages__list {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.languages__list li span {
+  font-weight: 700;
+}
+
 .education__note {
   font-size: 12px;
   color: var(--second-text-color);
