@@ -78,7 +78,7 @@ section {
 }
 .section-title {
   color: white;
-  width: 180px;
+  width: 220px;
   padding: 3px 0 3px 30px;
   background-color: var(--headers-color);
 }
@@ -97,4 +97,8 @@ h3 {
 .history-timeline {
   font-size: 22px;
   color: #03447a;
+}
+
+code {
+  font-size: 18px;
 }
